@@ -16,4 +16,9 @@ jobs:
         run: |
           ls ${{ github.workspace }}
           pwd
+          python3 --version
+          which python3
+          python --version
+          which python
+          python3 printTest.py
       - run: echo "🍏 This job's status is ${{ job.status }}."
